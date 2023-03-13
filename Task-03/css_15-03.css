@@ -1,0 +1,86 @@
+.button {
+    margin-left: 10px;
+    background-color: #00afca;
+    border: none;
+    display: flex;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    height: 26px;
+    cursor: pointer;
+}
+.div {
+    padding: 10px;
+    display: flex;
+    width: 500px;
+    
+    border: 1px solid #00afca;
+    margin-bottom: 5px;
+}
+
+.div2 {
+    padding: 10px;
+    display: flex;
+    width: 500px;
+    height: auto;
+    background-color:#d4ffff;
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: #006878;   
+}
+body {
+ margin: 100px 100px ;
+}
+
+input {
+    border: 2px solid #00afca;
+    height: 20px;
+    color: #006878; 
+}
+
+input:focus {
+    background-color: rgb(185, 255, 254);
+}
+
+a {
+    color: #006878;
+}
+a:hover {
+    color: #00afca; /* Цвет при наведении */
+}
+
+.info_output {
+    color: grey;
+    font-style: italic;
+  }
+
+.chat_output {
+    height: 150px;
+    overflow-y: scroll;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.chat_output > div {
+    max-width: 80%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    color: rgb(147, 141, 141);
+  }
+  
+  .chat_output .recieved {/*сообщение слева*/
+    background: #f8c4ff;
+    align-self: flex-start;
+  }
+  .chat_output .sent {/*сообщение справа*/
+    background: #ffffc7;
+    align-self: flex-end;
+  }

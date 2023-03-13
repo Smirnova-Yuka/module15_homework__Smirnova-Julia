@@ -1,0 +1,26 @@
+.btn {
+    background-color: #00afca;
+    height: 50px;
+    border: none;
+    display: flex;
+    padding: 15px 32px;
+    border-radius: 12px;
+}
+.btn_text {
+    font-size: 16px;
+    padding-right: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn_icons {
+    width: 20px;
+    height: 20px;
+}
+h1 {
+    color: #006878;   
+}
+body {
+ margin: 100px 100px ;
+}
